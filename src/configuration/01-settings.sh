@@ -43,7 +43,6 @@ ln -s /usr/lib/systemd/system/ostree-remount.service /etc/systemd/system/local-f
 
 # копируем службы
 cp /src/configuration/user_exec/systemd/system/* /usr/lib/systemd/system/
-cp /src/configuration/user_exec/systemd/user/* /usr/lib/systemd/user/
 
 # копируем скрипты
 cp /src/configuration/user_exec/libexec/* /usr/libexec/
