@@ -65,7 +65,9 @@ grep -qE "^\* hard nofile 978160$" /etc/security/limits.conf || echo "* hard nof
 grep -qE "^\* soft nofile 978160$" /etc/security/limits.conf || echo "* soft nofile 978160" >> /etc/security/limits.conf
 
 # Синхронизируем файлы
-rsync -av --progress /src/source/configuration/ /
+rsync -av --progress /src/source/configuration/etc/ /etc/
+rsync -av --progress /src/source/configuration/lib/ /lib/
+rsync -av --progress /src/source/configuration/usr/ /usr/
 
 # Обновление шрифтов
 fc-cache -fv

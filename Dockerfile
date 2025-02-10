@@ -1,4 +1,4 @@
-FROM registry.altlinux.org/p11/base:latest AS altbase
+FROM registry.altlinux.org/sisyphus/base:latest AS altbase
 
 # Копируем скрипты
 COPY src /src
