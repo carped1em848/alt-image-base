@@ -1,4 +1,4 @@
-# ALT Atomic
+# ALT Atomic Image
 
 Базовый образ **ALT Linux** в виде OCI-изображения, совместимый с **bootc**.
 
