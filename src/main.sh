@@ -4,7 +4,6 @@ set -e
 
 echo "Running scripts"
 
-ls -l /
 # Список директорий, в которых лежат скрипты (в нужном порядке)
 directories=(
   "/src/packages"

@@ -16,7 +16,7 @@ ln -s sysroot/ostree /ostree
 rm -f /etc/fstab
 mkdir -p /usr/lib/bootc/kargs.d/
 mkdir /sysroot
-cp -a /src//source/bootupd/ /usr/lib/
+cp -a /src/source/bootupd/ /usr/lib/
 mkdir -p /usr/local/bin
 mkdir -p /usr/lib/ostree
 
