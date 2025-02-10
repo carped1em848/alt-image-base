@@ -6,7 +6,7 @@ ARG PATH="/root/.cargo/bin:${PATH}"
 
 # Выполняем все шаги в одном RUN для минимизации слоёв
 RUN --mount=type=bind,source=./src,target=/src \
-    /src/main.sh \
+    /src/main.sh
 
 # Стадия 2: Переход к пустому образу
 FROM scratch
