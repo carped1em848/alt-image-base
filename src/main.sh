@@ -6,9 +6,9 @@ echo "Running scripts"
 
 # Список директорий, в которых лежат скрипты (в нужном порядке)
 directories=(
-  "./packages"
-  "./configuration"
-  "./make"
+  "/src/packages"
+  "/src/configuration"
+  "/src/make"
 )
 
 # Функция для запуска скриптов внутри заданной папки
