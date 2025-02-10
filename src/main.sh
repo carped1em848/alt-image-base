@@ -20,7 +20,6 @@ run_scripts_in_dir() {
   if ls "$dir"/*.sh &> /dev/null; then
     for script in $(ls "$dir"/*.sh | sort); do
       echo "==> Running $script"
-      chmod +x "$script"
       bash "$script"
     done
   else
