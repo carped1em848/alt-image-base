@@ -7,7 +7,6 @@ echo "::group:: ===$(basename "$0")==="
 KERNEL_DIR="/usr/lib/modules"
 BOOT_DIR="/boot"
 
-ls -l /
 echo "Detecting kernel version..."
 KERNEL_VERSION=$(ls "$KERNEL_DIR" | head -n 1)
 
