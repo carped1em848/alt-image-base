@@ -1,4 +1,4 @@
-FROM registry.altlinux.org/p11/base:latest AS base
+FROM registry.altlinux.org/p11/base:latest AS altbase
 
 # Устанавливаем переменные окружения
 ARG PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:/usr/lib/pkgconfig"
@@ -12,7 +12,7 @@ RUN --mount=type=bind,source=./src,target=/src \
 FROM scratch
 
 # Копируем всё содержимое из предыдущего образа
-COPY --from=base / /
+COPY --from=altbase / /
 
 WORKDIR /
 
