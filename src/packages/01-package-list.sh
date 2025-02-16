@@ -74,6 +74,7 @@ KERNEL_PACKAGES=(
 
 # --- Виртуализация и гостевые агенты (QEMU, Spice, LXD/Libvirt и т.д.) ---
 VIRT_PACKAGES=(
+    "open-vm-tools"
     "qemu-guest-agent"
     "spice-vdagent"
     "virtiofsd"
