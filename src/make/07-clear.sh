@@ -7,7 +7,7 @@ rm -rf /var/root/.rustup
 rm -rf /var/root/.cache
 rm -rf /var/root/.profile
 rm -rf /var/root/go
-#rm -rf /boot/*
+rm -rf /boot/*
 truncate -s 0 /var/log/lastlog
 
 echo "::endgroup::"
