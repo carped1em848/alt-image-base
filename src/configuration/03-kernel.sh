@@ -3,6 +3,7 @@ set -euo pipefail
 
 echo "::group:: ===$(basename "$0")==="
 
+
 # Находим версию ядра
 KERNEL_DIR="/usr/lib/modules"
 BOOT_DIR="/boot"
