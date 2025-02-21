@@ -38,6 +38,7 @@ CONTAINER_PACKAGES=(
 
 # --- Пакеты для разработки: Go, Rust, C/C++, системные dev-библиотеки и т.п. ---
 DEV_PACKAGES=(
+    "rust-cargo"
     "golang"
     "rust"
     "build-essential"
