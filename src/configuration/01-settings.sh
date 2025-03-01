@@ -30,7 +30,7 @@ echo "SELINUX=disabled" > /etc/selinux/config
 
 # Создаём файл /etc/sudoers.d/allow-wheel-nopass если его нет
 touch /etc/sudoers.d/allow-wheel-nopass
-echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/allow-wheel-nopass
+echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/allow-wheel-nopass
 
 # Настройка vconsole
 touch /etc/vconsole.conf
