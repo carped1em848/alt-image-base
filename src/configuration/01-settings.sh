@@ -3,9 +3,10 @@ set -e
 
 echo "::group:: ===$(basename "$0")==="
 
-mkdir -p /var/root /var/home /var/mnt /var/opt /var/srv /etc/atomic
+#mkdir -p /var/root /var/home /var/mnt /var/opt /var/srv /etc/atomic
+mkdir -p /var/root /var/home /var/mnt /var/srv /etc/atomic
 rm -rf /mnt && ln -s var/mnt /mnt
-rm -rf /opt && ln -s var/opt /opt
+#rm -rf /opt && ln -s var/opt /opt
 rm -rf /srv && ln -s var/srv /srv
 rm -rf /media && ln -s run/media /media
 
