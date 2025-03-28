@@ -8,4 +8,4 @@ name = 'aides'
 url = 'https://code.aides.space/aides-localbuild/main.git'
 
 [unsafe]
-allowRunAsRoot = false
+allowRunAsRoot = true
