@@ -1,4 +1,4 @@
-rootCmd = 'pkexec'
+rootCmd = 'sudo'
 pagerStyle = 'native'
 ignorePkgUpdates = []
 autoPull = false
